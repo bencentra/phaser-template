@@ -1,13 +1,33 @@
-var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game', { preload: preload, create: create, update: update });
+(function(Phaser) {
 
-function preload() {
-  
-}
+  // Constants
+  var STAGE_W = 800;
+  var STAGE_H = 600;
 
-function create() {
+  // Game "actors" and properties
 
-}
+  // Game instance
+  var game = new Phaser.Game(STAGE_W, STAGE_H, Phaser.AUTO, 'game', { preload: preload, create: create, update: update });
 
-function update() {
+  /*
+  * Preload game assets
+  */
+  function preload() {
 
-}
+  }
+
+  /*
+  * Initialize actors and game state
+  */
+  function create() {
+
+  }
+
+  /*
+  * Update the game state on each frame
+  */
+  function update() {
+
+  }
+
+})(Phaser);
